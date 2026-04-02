@@ -6,9 +6,9 @@ I'm an IT professional with a concentration in Cyber Security, CompTIA Security+
 
 ## What I'm Working On
 
-- **[3D Server Room Portfolio](https://armando-portfolio-3d.web.app)** — An immersive, interactive 3D portfolio built with React Three Fiber. Walk through a server room to explore my projects, certifications, and resume. Full mobile support with touch controls.
+- **[3D Server Room Portfolio](https://armando-portfolio-3d.web.app)** — An immersive, interactive 3D portfolio built with React Three Fiber. Walk through a server room to explore my projects, certifications, and resume. Full mobile support with touch controls. ([GitHub](https://github.com/Armando-ic/portfolio))
 
-- **[Lola's Party System](https://lolas-party-system.web.app)** — A production web application for a party rental business. 11 Cloud Functions, Stripe payments, admin dashboard, and automated email workflows. Built as lead developer for my senior design capstone.
+- **[Lola's Party System](https://lolas-party-system.web.app)** — A production web application for a party rental business. 11 Cloud Functions, Stripe payments, admin dashboard, and automated email workflows. Built as lead developer for my senior design capstone. ([GitHub](https://github.com/Armando-ic/lolas-party-system))
 
 ## Tech Stack
 
