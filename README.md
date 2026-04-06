@@ -2,9 +2,11 @@
 
 **IT & Cybersecurity** · George Mason University · Class of 2026
 
-I'm an IT professional with a concentration in Cyber Security, CompTIA Security+ certified, with hands-on experience building and securing cloud infrastructure on Google Cloud Platform.
+I'm an IT professional with a concentration in Cyber Security, CompTIA Security+ certified, with hands-on experience in detection engineering, SIEM operations, and cloud infrastructure. Currently building blue team skills through home lab projects focused on Active Directory attack detection and MITRE ATT&CK framework mapping.
 
 ## What I'm Working On
+
+- **[AD Detection Lab](https://github.com/Armando-ic/ad-detection-lab)** — A blue team home lab for practicing SOC analyst workflows. Simulates attacks against Active Directory (RDP brute force, Atomic Red Team), forwards telemetry via Sysmon to Splunk SIEM, and documents detection logic mapped to MITRE ATT&CK. Includes Splunk queries, analyst triage steps, and lessons learned.
 
 - **[3D Server Room Portfolio](https://armando-portfolio-3d.web.app)** — An immersive, interactive 3D portfolio built with React Three Fiber. Walk through a server room to explore my projects, certifications, and resume. Full mobile support with touch controls. ([GitHub](https://github.com/Armando-ic/portfolio))
 
@@ -12,13 +14,15 @@ I'm an IT professional with a concentration in Cyber Security, CompTIA Security+
 
 ## Tech Stack
 
-**Cloud & Infrastructure:** Google Cloud Platform · Firebase · Azure Sentinel
+**Security & Detection:** Splunk · Sysmon · MITRE ATT&CK · Atomic Red Team · Active Directory · Windows Event Logs · Kali Linux
 
-**Languages:** Python · JavaScript · HTML/CSS · SQL
+**Cloud & Infrastructure:** Google Cloud Platform · Firebase · VirtualBox · Windows Server 2022
+
+**Languages:** Python · JavaScript · PowerShell · SPL (Splunk) · HTML/CSS · SQL
 
 **Frameworks & Tools:** React · Three.js · Flask · Stripe API · Blender
 
-**Security & DevOps:** Git/GitHub · Firestore Security Rules · CORS · XSS Prevention · Webhook Verification
+**DevOps & Practices:** Git/GitHub · Firestore Security Rules · CORS · XSS Prevention · Webhook Verification
 
 **AI-Assisted Development:** Claude Code
 
