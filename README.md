@@ -29,7 +29,7 @@ I'm an IT professional with a concentration in Cyber Security, CompTIA Security+
 ## Certifications
 
 - **CompTIA Security+** (SY0-601)
-- **CompTIA Network+** — In Progress
+- **CompTIA CySA+** — In Progress
 
 ## Connect
 
