@@ -36,8 +36,7 @@ Porting the SOC_Automation_Project pipeline to **Azure-native** (Microsoft Senti
 
 ## Certifications
 
-- **CompTIA Security+** (SY0-601)
-- **CompTIA CySA+** — In Progress
+- **CompTIA Security+ ce** (valid through September 2029)
 
 ## Connect
 
