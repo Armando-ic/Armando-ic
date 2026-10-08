@@ -1,42 +1,47 @@
 # Hi, I'm Armando Irizarry-Cortes
 
-**IT & Cybersecurity** · George Mason University · Class of 2026 · CompTIA Security+ certified
+**IT Infrastructure & Networking** · George Mason University, BS Information Technology 2026 · CompTIA Security+ ce · Cisco CCNA in progress
 
-I'm into the **engineering side** of security — building detection pipelines, SOAR automation, and SIEM integrations — more than pure analyst/triage. Currently based in Northern Virginia.
+I'm an IT graduate in Northern Virginia moving into data center and network infrastructure work: building networks, working with hardware, and following a procedure until the job is done right. The security projects below are the background I bring to it.
 
 ## What I'm Working On
 
-- **[SOC_Automation_Project](https://github.com/Armando-ic/SOC-Automation-Project)** — Headline project. An end-to-end SOAR (Security Orchestration, Automation & Response) lab on a private VMware NAT subnet: Splunk Enterprise → n8n → Claude API (with VirusTotal + AbuseIPDB enrichment tools) → DFIR-Iris case management. Sysmon on the endpoint, Atomic Red Team for purple-team validation. Three shipped sub-projects (structured outputs, escalation gate, detection foundations), 7 ADRs documenting non-obvious design choices, and a from-scratch rebuild story after an infrastructure incident.
+- **Home network monitoring lab** (in progress, no public repository yet): a managed switch mirrors traffic to a Linux sensor running Zeek and Suricata, which ships logs to a central Splunk server. The Splunk server is installed and hardened; the sensor and the switch come next.
+- **Cisco CCNA study:** routing, switching and subnetting, practiced in Cisco Packet Tracer. Exam target December 2026.
 
-- **[splunk-soc-training](https://github.com/Armando-ic/splunk-soc-training)** — A self-designed 4-week SOC analyst training curriculum I built for myself. 23 lessons running against three real data environments (live Sysmon forwarders, paid-course CSVs re-ingested with proper sourcetypes, and Splunk's BOTSv1 dataset). Honest framing: this is the curriculum + lab setup, not a personal study log — I ended up pouring my Splunk hands-on time into the SOC_Automation_Project above.
+## Projects
 
-- **[AD Detection Lab](https://github.com/Armando-ic/ad-detection-lab)** — Earlier blue team home lab. Simulates attacks against Active Directory (RDP brute force, Atomic Red Team), forwards telemetry via Sysmon to Splunk, and documents detection logic mapped to MITRE ATT&CK.
+- **[SOC_Automation_Project](https://github.com/Armando-ic/SOC-Automation-Project):** A SOAR (Security Orchestration, Automation & Response) lab on a private VMware NAT subnet, based on the MyDFIR course and extended with Claude Code: Splunk Enterprise, n8n, Claude API triage (with VirusTotal and AbuseIPDB enrichment tools) and DFIR-Iris case management. Sysmon on the endpoint, Atomic Red Team for validation, and 8 ADRs documenting non-obvious design choices. Later moved to Azure, with a Microsoft Sentinel and Logic Apps version.
 
-- **[3D Server Room Portfolio](https://armando-portfolio-3d.web.app)** — An immersive, interactive 3D portfolio built with React Three Fiber. Walk through a server room to explore my projects, certifications, and resume. Full mobile support with touch controls. ([GitHub](https://github.com/Armando-ic/portfolio))
+- **[soc-automation-honeypot-project](https://github.com/Armando-ic/soc-automation-honeypot-project):** An internet-exposed Windows Server 2022 honeypot in Azure (July to August 2026) that fed Sysmon and Windows event logs to Splunk, built with Claude Code. I investigated two interactive RDP intrusions and documented each in an ATT&CK-mapped incident report.
 
-- **[Lola's Party System](https://lolas-party-system.web.app)** — A production web application for a party rental business. 11 Cloud Functions, Stripe payments, admin dashboard, and automated email workflows. Built as lead developer for my senior design capstone. ([GitHub](https://github.com/Armando-ic/lolas-party-system))
+- **[splunk-soc-training](https://github.com/Armando-ic/splunk-soc-training):** A 4-week, 23-lesson Splunk SOC analyst curriculum that I designed and published, written with Claude Code. It runs against a live Windows forwarder with Sysmon, course CSVs re-ingested with proper sourcetypes, and Splunk's BOTSv1 dataset. This is the curriculum and lab setup, not a personal study log.
 
-## What's Next
+- **[AD Detection Lab](https://github.com/Armando-ic/ad-detection-lab):** An earlier guided lab, built by following the MyDFIR Active Directory series: attacks simulated against a small Active Directory domain, with Sysmon telemetry forwarded to Splunk.
 
-Porting the SOC_Automation_Project pipeline to **Azure-native** (Microsoft Sentinel + Logic Apps) as a parallel implementation, so I can compare what translates from on-prem detection engineering to cloud. AZ-900 and SC-200 along the way.
+- **[3D Server Room Portfolio](https://armando-portfolio-3d.web.app):** An interactive 3D portfolio in React Three Fiber that I designed and directed and built with Claude Code. Walk through a server room to see my projects, certifications and resume. Works on phones with touch controls. ([GitHub](https://github.com/Armando-ic/portfolio))
+
+- **[Lola's Party System](https://lolasparty.com):** A production web application for a party rental business, built with a six-person senior capstone team: Python Cloud Functions, Stripe payments, an admin dashboard and automated email workflows. I was the team's liaison to the business owner and kept maintaining the site after graduation, with fixes through July 2026. ([GitHub](https://github.com/Armando-ic/lolas-party-system))
 
 ## Tech Stack
 
-**Security & Detection:** Splunk · n8n SOAR · DFIR-Iris · Claude API (tool-use / structured outputs) · Sysmon · MITRE ATT&CK · Atomic Red Team · Active Directory · Windows Event Logs · Kali Linux
+**Networking & Hardware:** Cisco Packet Tracer (VLSM, static routing, router and switch configuration) · TCP/IP · subnetting · PC assembly and part selection · memory testing with MemTest86
 
-**Cloud & Infrastructure:** Google Cloud Platform · Firebase · VMware Workstation · VirtualBox · Windows Server 2022 · Docker / docker-compose
+**Systems:** Windows 10/11 · Windows Server and Active Directory (lab) · Ubuntu Server and Linux · VMware Workstation · VirtualBox · Docker Compose
 
-**Languages:** Python · JavaScript · PowerShell · SPL (Splunk) · HTML/CSS · SQL
+**Security & Monitoring:** Splunk Enterprise and SPL · Sysmon · n8n SOAR · DFIR-Iris · MITRE ATT&CK · Atomic Red Team · Microsoft Sentinel and KQL (lab)
 
-**Frameworks & Tools:** React · Three.js · Flask · Stripe API · Blender
+**Cloud:** Google Cloud Platform · Firebase · Microsoft Azure (lab)
 
-**DevOps & Practices:** Git/GitHub · Firestore Security Rules · CORS · XSS Prevention · Webhook Verification
+**Scripting:** Python · Bash · PowerShell (basic) · JavaScript · SQL (basic)
 
 **AI-Assisted Development:** Claude Code
 
 ## Certifications
 
 - **CompTIA Security+ ce** (valid through September 2029)
+
+**In progress:** Cisco CCNA (exam target December 2026)
 
 ## Connect
 
