@@ -7,7 +7,7 @@ I'm an IT graduate in Northern Virginia moving into data center and network infr
 ## What I'm Working On
 
 - **Home network monitoring lab** (in progress, no public repository yet): a managed switch mirrors traffic to a Linux sensor running Zeek and Suricata, which ships logs to a central Splunk server. The Splunk server is installed and hardened; the sensor and the switch come next.
-- **Cisco CCNA study:** routing, switching and subnetting, practiced in Cisco Packet Tracer. Exam target December 2026.
+- **Cisco CCNA study:** routing, switching and subnetting, practiced in Cisco Packet Tracer. Exam target January 2027.
 
 ## Projects
 
@@ -41,7 +41,7 @@ I'm an IT graduate in Northern Virginia moving into data center and network infr
 
 - **CompTIA Security+ ce** (valid through September 2029)
 
-**In progress:** Cisco CCNA (exam target December 2026)
+**In progress:** Cisco CCNA (exam target January 2027)
 
 ## Connect
 
